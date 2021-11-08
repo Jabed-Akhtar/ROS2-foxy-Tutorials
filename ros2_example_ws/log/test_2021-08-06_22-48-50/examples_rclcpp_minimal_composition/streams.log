@@ -1,0 +1,136 @@
+[1.338s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition': AMENT_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_composition:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_composition:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_composition/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.354s] UpdateCTestConfiguration  from :/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[1.354s] Parse Config file:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[1.354s]    Site: samirLnxPC
+[1.354s]    Build name: (empty)
+[1.354s]  Add coverage exclude regular expressions.
+[1.355s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[1.355s] Create new tag: 20210806-2048 - Experimental
+[1.355s] UpdateCTestConfiguration  from :/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[1.355s] Parse Config file:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[1.355s] Test project /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition
+[1.355s] Constructing a list of tests
+[1.355s] Done constructing a list of tests
+[1.355s] Updating test list for fixtures
+[1.355s] Added 0 tests to meet fixture requirements
+[1.355s] Checking test dependency graph...
+[1.355s] Checking test dependency graph end
+[1.355s] test 1
+[1.355s]     Start 1: copyright
+[1.355s] 
+[1.355s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml"
+[1.355s] 1: Test timeout computed to be: 60
+[1.385s] 1: -- run_test.py: invoking following command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition':
+[1.385s] 1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml
+[1.609s] 1: No problems found, checked 8 files
+[1.620s] 1: -- run_test.py: return code 0
+[1.621s] 1: -- run_test.py: verify result file '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml'
+[1.629s] 1/6 Test #1: copyright ........................   Passed    0.29 sec
+[1.629s] test 2
+[1.629s]     Start 2: cppcheck
+[1.629s] 
+[1.629s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml" "--include_dirs" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition/include"
+[1.629s] 2: Test timeout computed to be: 300
+[1.677s] 2: -- run_test.py: invoking following command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition':
+[1.678s] 2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml --include_dirs /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition/include
+[1.837s] 2: No problems found
+[1.852s] 2: -- run_test.py: return code 0
+[1.852s] 2: -- run_test.py: verify result file '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml'
+[1.862s] 2/6 Test #2: cppcheck .........................   Passed    0.23 sec
+[1.862s] test 3
+[1.862s]     Start 3: cpplint
+[1.862s] 
+[1.862s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml"
+[1.862s] 3: Test timeout computed to be: 120
+[1.905s] 3: -- run_test.py: invoking following command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition':
+[1.905s] 3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml
+[2.110s] 3: Using '--root=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition/include' argument
+[2.110s] 3: 
+[2.110s] 3: Done processing /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/publisher_node.hpp
+[2.110s] 3: 
+[2.110s] 3: Done processing /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/subscriber_node.hpp
+[2.110s] 3: 
+[2.110s] 3: Done processing /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/visibility.h
+[2.110s] 3: 
+[2.110s] 3: Using '--root=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition/src' argument
+[2.111s] 3: 
+[2.111s] 3: Done processing /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition/src/composed.cpp
+[2.111s] 3: 
+[2.111s] 3: Done processing /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition/src/publisher_node.cpp
+[2.111s] 3: 
+[2.111s] 3: Done processing /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition/src/standalone_publisher.cpp
+[2.111s] 3: 
+[2.111s] 3: Done processing /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition/src/standalone_subscriber.cpp
+[2.111s] 3: 
+[2.111s] 3: Done processing /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition/src/subscriber_node.cpp
+[2.111s] 3: 
+[2.111s] 3: No problems found
+[2.118s] 3: -- run_test.py: return code 0
+[2.118s] 3: -- run_test.py: verify result file '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml'
+[2.126s] 3/6 Test #3: cpplint ..........................   Passed    0.26 sec
+[2.127s] test 4
+[2.127s]     Start 4: lint_cmake
+[2.127s] 
+[2.127s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml"
+[2.127s] 4: Test timeout computed to be: 60
+[2.169s] 4: -- run_test.py: invoking following command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition':
+[2.169s] 4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml
+[2.304s] 4: 
+[2.304s] 4: No problems found
+[2.311s] 4: -- run_test.py: return code 0
+[2.311s] 4: -- run_test.py: verify result file '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml'
+[2.319s] 4/6 Test #4: lint_cmake .......................   Passed    0.19 sec
+[2.319s] test 5
+[2.319s]     Start 5: uncrustify
+[2.319s] 
+[2.320s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml"
+[2.320s] 5: Test timeout computed to be: 60
+[2.360s] 5: -- run_test.py: invoking following command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition':
+[2.360s] 5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml
+[2.537s] 5: No code style divergence in file 'include/minimal_composition/publisher_node.hpp'
+[2.537s] 5: 
+[2.537s] 5: No code style divergence in file 'include/minimal_composition/subscriber_node.hpp'
+[2.537s] 5: 
+[2.537s] 5: No code style divergence in file 'include/minimal_composition/visibility.h'
+[2.537s] 5: 
+[2.538s] 5: No code style divergence in file 'src/composed.cpp'
+[2.538s] 5: 
+[2.538s] 5: No code style divergence in file 'src/publisher_node.cpp'
+[2.538s] 5: 
+[2.538s] 5: No code style divergence in file 'src/standalone_publisher.cpp'
+[2.538s] 5: 
+[2.538s] 5: No code style divergence in file 'src/standalone_subscriber.cpp'
+[2.539s] 5: 
+[2.539s] 5: No code style divergence in file 'src/subscriber_node.cpp'
+[2.539s] 5: 
+[2.539s] 5: No problems found
+[2.547s] 5: -- run_test.py: return code 0
+[2.548s] 5: -- run_test.py: verify result file '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml'
+[2.553s] 5/6 Test #5: uncrustify .......................   Passed    0.23 sec
+[2.553s] test 6
+[2.553s]     Start 6: xmllint
+[2.554s] 
+[2.554s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml"
+[2.554s] 6: Test timeout computed to be: 60
+[2.595s] 6: -- run_test.py: invoking following command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/composition/minimal_composition':
+[2.595s] 6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml
+[3.840s] 6: File 'package.xml' is valid
+[3.840s] 6: 
+[3.840s] 6: No problems found
+[3.854s] 6: -- run_test.py: return code 0
+[3.854s] 6: -- run_test.py: verify result file '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml'
+[3.865s] 6/6 Test #6: xmllint ..........................   Passed    1.31 sec
+[3.866s] 
+[3.866s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[3.866s] 
+[3.866s] Label Time Summary:
+[3.866s] copyright     =   0.29 sec*proc (1 test)
+[3.866s] cppcheck      =   0.23 sec*proc (1 test)
+[3.866s] cpplint       =   0.26 sec*proc (1 test)
+[3.866s] lint_cmake    =   0.19 sec*proc (1 test)
+[3.866s] linter        =   2.52 sec*proc (6 tests)
+[3.866s] uncrustify    =   0.23 sec*proc (1 test)
+[3.866s] xmllint       =   1.31 sec*proc (1 test)
+[3.866s] 
+[3.866s] Total Test time (real) =   2.52 sec
+[3.874s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_composition' returned '0': AMENT_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_composition:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_composition:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_composition/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

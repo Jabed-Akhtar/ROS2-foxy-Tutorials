@@ -1,0 +1,110 @@
+[1.463s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_action_server:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_multithreaded_executor:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_timer:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_subscriber:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_service:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_publisher:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_composition:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_client:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_action_client:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub CONDA_PROMPT_MODIFIER=(ros2) _=/usr/bin/env /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.500s] UpdateCTestConfiguration  from :/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/CTestConfiguration.ini
+[1.500s] Parse Config file:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/CTestConfiguration.ini
+[1.500s]    Site: samirLnxPC
+[1.500s]    Build name: (empty)
+[1.500s]  Add coverage exclude regular expressions.
+[1.500s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[1.500s] Create new tag: 20210912-2123 - Experimental
+[1.500s] UpdateCTestConfiguration  from :/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/CTestConfiguration.ini
+[1.501s] Parse Config file:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/CTestConfiguration.ini
+[1.501s] Test project /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server
+[1.501s] Constructing a list of tests
+[1.501s] Done constructing a list of tests
+[1.501s] Updating test list for fixtures
+[1.501s] Added 0 tests to meet fixture requirements
+[1.501s] Checking test dependency graph...
+[1.501s] Checking test dependency graph end
+[1.501s] test 1
+[1.501s]     Start 1: copyright
+[1.501s] 
+[1.501s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_server" "--output-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/copyright.xunit.xml"
+[1.501s] 1: Test timeout computed to be: 60
+[1.529s] 1: -- run_test.py: invoking following command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/actions/minimal_action_server':
+[1.529s] 1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/copyright.xunit.xml
+[1.712s] 1: No problems found, checked 2 files
+[1.719s] 1: -- run_test.py: return code 0
+[1.719s] 1: -- run_test.py: verify result file '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/copyright.xunit.xml'
+[1.728s] 1/6 Test #1: copyright ........................   Passed    0.25 sec
+[1.728s] test 2
+[1.728s]     Start 2: cppcheck
+[1.728s] 
+[1.728s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_server" "--output-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cppcheck.xunit.xml"
+[1.728s] 2: Test timeout computed to be: 300
+[1.785s] 2: -- run_test.py: invoking following command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/actions/minimal_action_server':
+[1.786s] 2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cppcheck.xunit.xml
+[1.979s] 2: No problems found
+[1.993s] 2: -- run_test.py: return code 0
+[1.993s] 2: -- run_test.py: verify result file '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cppcheck.xunit.xml'
+[1.999s] 2/6 Test #2: cppcheck .........................   Passed    0.27 sec
+[2.000s] test 3
+[2.000s]     Start 3: cpplint
+[2.000s] 
+[2.000s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_server" "--output-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cpplint.xunit.xml"
+[2.000s] 3: Test timeout computed to be: 120
+[2.055s] 3: -- run_test.py: invoking following command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/actions/minimal_action_server':
+[2.055s] 3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cpplint.xunit.xml
+[2.267s] 3: Using '--root=..' argument
+[2.267s] 3: 
+[2.267s] 3: Done processing /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/actions/minimal_action_server/member_functions.cpp
+[2.267s] 3: 
+[2.267s] 3: Done processing /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/actions/minimal_action_server/not_composable.cpp
+[2.267s] 3: 
+[2.267s] 3: No problems found
+[2.274s] 3: -- run_test.py: return code 0
+[2.275s] 3: -- run_test.py: verify result file '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/cpplint.xunit.xml'
+[2.281s] 3/6 Test #3: cpplint ..........................   Passed    0.28 sec
+[2.281s] test 4
+[2.281s]     Start 4: lint_cmake
+[2.281s] 
+[2.281s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_server" "--output-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/lint_cmake.xunit.xml"
+[2.281s] 4: Test timeout computed to be: 60
+[2.336s] 4: -- run_test.py: invoking following command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/actions/minimal_action_server':
+[2.336s] 4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/lint_cmake.xunit.xml
+[2.500s] 4: 
+[2.500s] 4: No problems found
+[2.509s] 4: -- run_test.py: return code 0
+[2.509s] 4: -- run_test.py: verify result file '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/lint_cmake.xunit.xml'
+[2.517s] 4/6 Test #4: lint_cmake .......................   Passed    0.24 sec
+[2.517s] test 5
+[2.517s]     Start 5: uncrustify
+[2.517s] 
+[2.517s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_server" "--output-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/uncrustify.xunit.xml"
+[2.517s] 5: Test timeout computed to be: 60
+[2.574s] 5: -- run_test.py: invoking following command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/actions/minimal_action_server':
+[2.574s] 5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/uncrustify.xunit.xml
+[2.744s] 5: No code style divergence in file 'member_functions.cpp'
+[2.745s] 5: 
+[2.745s] 5: No code style divergence in file 'not_composable.cpp'
+[2.745s] 5: 
+[2.745s] 5: No problems found
+[2.756s] 5: -- run_test.py: return code 0
+[2.756s] 5: -- run_test.py: verify result file '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/uncrustify.xunit.xml'
+[2.762s] 5/6 Test #5: uncrustify .......................   Passed    0.24 sec
+[2.762s] test 6
+[2.762s]     Start 6: xmllint
+[2.762s] 
+[2.762s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_server" "--output-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/xmllint.xunit.xml"
+[2.762s] 6: Test timeout computed to be: 60
+[2.822s] 6: -- run_test.py: invoking following command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclcpp/actions/minimal_action_server':
+[2.822s] 6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/xmllint.xunit.xml
+[5.561s] 6: File 'package.xml' is valid
+[5.562s] 6: 
+[5.562s] 6: No problems found
+[5.574s] 6: -- run_test.py: return code 0
+[5.574s] 6: -- run_test.py: verify result file '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/xmllint.xunit.xml'
+[5.579s] 6/6 Test #6: xmllint ..........................   Passed    2.82 sec
+[5.580s] 
+[5.580s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[5.580s] 
+[5.580s] Label Time Summary:
+[5.580s] copyright     =   0.25 sec*proc (1 test)
+[5.580s] cppcheck      =   0.27 sec*proc (1 test)
+[5.580s] cpplint       =   0.28 sec*proc (1 test)
+[5.580s] lint_cmake    =   0.24 sec*proc (1 test)
+[5.580s] linter        =   4.10 sec*proc (6 tests)
+[5.580s] uncrustify    =   0.24 sec*proc (1 test)
+[5.580s] xmllint       =   2.82 sec*proc (1 test)
+[5.580s] 
+[5.580s] Total Test time (real) =   4.11 sec
+[5.608s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_action_server:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_multithreaded_executor:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_timer:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_subscriber:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_service:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_publisher:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_composition:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_client:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclcpp_minimal_action_client:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub CONDA_PROMPT_MODIFIER=(ros2) _=/usr/bin/env /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,21 @@
+[1.572s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_action_client': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client --editable --build-directory /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_action_client/build --no-deps install_data --install-dir /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client
+[1.925s] running develop
+[2.132s] running egg_info
+[2.132s] writing examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[2.132s] writing dependency_links to examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[2.133s] writing entry points to examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[2.133s] writing requirements to examples_rclpy_minimal_action_client.egg-info/requires.txt
+[2.133s] writing top-level names to examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[2.166s] reading manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[2.172s] writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[2.339s] running build_ext
+[2.344s] Creating /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples-rclpy-minimal-action-client.egg-link (link to .)
+[2.345s] Installing client script to /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.345s] Installing client_cancel script to /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.345s] Installing client_not_composable script to /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.345s] 
+[2.346s] Installed /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_action_client
+[2.346s] running install_data
+[2.346s] copying resource/examples_rclpy_minimal_action_client -> /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[2.346s] copying package.xml -> /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client/share/examples_rclpy_minimal_action_client
+[2.456s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_action_client' returned '0': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client --editable --build-directory /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_action_client/build --no-deps install_data --install-dir /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client

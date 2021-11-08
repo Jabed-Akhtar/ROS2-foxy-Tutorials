@@ -1,0 +1,50 @@
+[0.010s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters
+[0.023s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.177s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.203s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.345s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.453s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.511s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.512s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.512s] -- Configured cppcheck include dirs: 
+[0.512s] -- Configured cppcheck exclude dirs and/or files: 
+[0.513s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.513s] -- Configured cpplint exclude dirs and/or files: 
+[0.513s] -- Added test 'lint_cmake' to check CMake code style
+[0.514s] -- Added test 'uncrustify' to check C / C++ code style
+[0.514s] -- Configured uncrustify additional arguments: 
+[0.514s] -- Added test 'xmllint' to check XML markup files
+[0.516s] -- Configuring done
+[0.520s] -- Generating done
+[0.521s] -- Build files have been written to: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters
+[0.525s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters
+[0.528s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters -- -j24 -l24
+[0.569s] [35m[1mScanning dependencies of target parameter_node[0m
+[0.595s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_node.dir/src/cpp_parameters_node.cpp.o[0m
+[1.859s] [100%] [32m[1mLinking CXX executable parameter_node[0m
+[1.939s] [100%] Built target parameter_node
+[1.950s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters -- -j24 -l24
+[1.978s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters
+[1.984s] -- Install configuration: ""
+[1.984s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/lib/cpp_parameters/parameter_node
+[1.984s] -- Set runtime path of "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/lib/cpp_parameters/parameter_node" to ""
+[1.984s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[1.984s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[1.984s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[1.984s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[1.985s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[1.985s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[1.985s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[1.985s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[1.985s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[1.985s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[1.985s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+[1.986s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[1.986s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[1.986s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[1.986s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/package.xml
+[1.988s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/my_package_CMake/src/my_node_CMake.cpp
+cstdio
+-
+

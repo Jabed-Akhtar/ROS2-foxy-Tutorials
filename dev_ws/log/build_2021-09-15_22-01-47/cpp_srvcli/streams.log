@@ -1,0 +1,55 @@
+[0.053s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_srvcli -GEclipse CDT4 - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli
+[0.936s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.936s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.937s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.937s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.937s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.937s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.937s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.937s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.937s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.937s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.938s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.938s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.938s] -- Configured cppcheck include dirs: 
+[0.939s] -- Configured cppcheck exclude dirs and/or files: 
+[0.939s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.939s] -- Configured cpplint exclude dirs and/or files: 
+[0.939s] -- Added test 'lint_cmake' to check CMake code style
+[0.939s] -- Added test 'uncrustify' to check C / C++ code style
+[0.940s] -- Configured uncrustify additional arguments: 
+[0.940s] -- Added test 'xmllint' to check XML markup files
+[0.940s] -- Configuring done
+[0.941s] -- Generating done
+[0.942s] -- Build files have been written to: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli
+[0.954s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_srvcli -GEclipse CDT4 - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli
+[0.954s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli -- -j24 -l24
+[0.979s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.980s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[3.230s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.332s] [ 75%] Built target server
+[3.385s] [100%] [32m[1mLinking CXX executable client[0m
+[3.518s] [100%] Built target client
+[3.529s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli -- -j24 -l24
+[3.557s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli
+[3.566s] -- Install configuration: "Debug"
+[3.566s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.567s] -- Set runtime path of "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[3.567s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.568s] -- Set runtime path of "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[3.569s] -- Up-to-date: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.569s] -- Up-to-date: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.569s] -- Up-to-date: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.569s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.569s] -- Up-to-date: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.569s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.569s] -- Up-to-date: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.569s] -- Up-to-date: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.569s] -- Up-to-date: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.569s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.569s] -- Installing: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.569s] -- Up-to-date: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.570s] -- Up-to-date: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.570s] -- Up-to-date: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.570s] -- Up-to-date: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.572s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli

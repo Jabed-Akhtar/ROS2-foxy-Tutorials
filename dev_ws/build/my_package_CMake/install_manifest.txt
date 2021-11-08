@@ -1,0 +1,16 @@
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/lib/my_package_CMake/my_node_CMake
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/ament_index/resource_index/package_run_dependencies/my_package_CMake
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/ament_index/resource_index/parent_prefix_path/my_package_CMake
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/my_package_CMake/environment/ament_prefix_path.sh
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/my_package_CMake/environment/ament_prefix_path.dsv
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/my_package_CMake/environment/path.sh
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/my_package_CMake/environment/path.dsv
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/my_package_CMake/local_setup.bash
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/my_package_CMake/local_setup.sh
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/my_package_CMake/local_setup.zsh
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/my_package_CMake/local_setup.dsv
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/my_package_CMake/package.dsv
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/ament_index/resource_index/packages/my_package_CMake
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/my_package_CMake/cmake/my_package_CMakeConfig.cmake
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/my_package_CMake/cmake/my_package_CMakeConfig-version.cmake
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_CMake/share/my_package_CMake/package.xml

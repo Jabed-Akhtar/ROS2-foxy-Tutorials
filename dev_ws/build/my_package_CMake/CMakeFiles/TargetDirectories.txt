@@ -1,0 +1,10 @@
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_CMake/CMakeFiles/install/strip.dir
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_CMake/CMakeFiles/install/local.dir
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_CMake/CMakeFiles/install.dir
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_CMake/CMakeFiles/list_install_components.dir
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_CMake/CMakeFiles/rebuild_cache.dir
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_CMake/CMakeFiles/edit_cache.dir
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_CMake/CMakeFiles/test.dir
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_CMake/CMakeFiles/my_package_CMake_uninstall.dir
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_CMake/CMakeFiles/my_node_CMake.dir
+/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_CMake/CMakeFiles/uninstall.dir

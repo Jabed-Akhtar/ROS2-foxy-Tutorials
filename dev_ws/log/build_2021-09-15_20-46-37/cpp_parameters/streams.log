@@ -1,0 +1,3 @@
+[0.054s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) _=/usr/bin/env /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters -- -j24 -l24
+[0.949s] [100%] Built target parameter_node
+[0.960s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) _=/usr/bin/env /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters -- -j24 -l24

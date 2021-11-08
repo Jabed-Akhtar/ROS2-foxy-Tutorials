@@ -1,0 +1,24 @@
+[0.078s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_srvcli -GEclipse CDT4 - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli
+[0.929s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.929s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.929s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.930s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.930s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.930s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.930s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.956s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.052s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.099s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.099s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.100s] -- Configured cppcheck include dirs: 
+[1.100s] -- Configured cppcheck exclude dirs and/or files: 
+[1.100s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.100s] -- Configured cpplint exclude dirs and/or files: 
+[1.100s] -- Added test 'lint_cmake' to check CMake code style
+[1.101s] -- Added test 'uncrustify' to check C / C++ code style
+[1.101s] -- Configured uncrustify additional arguments: 
+[1.101s] -- Added test 'xmllint' to check XML markup files
+[1.103s] -- Configuring done
+[1.115s] -- Generating done
+[1.116s] -- Build files have been written to: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli

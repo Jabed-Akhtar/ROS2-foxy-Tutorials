@@ -1,0 +1,19 @@
+[0.807s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_service:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_client:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_server:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_action_client:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_executors:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim -- -j24 -l24
+[0.858s] [  1%] Built target turtlesim__cpp
+[0.859s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.883s] [ 21%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.883s] [ 31%] Built target turtlesim__rosidl_typesupport_c
+[0.883s] [ 41%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.884s] [ 51%] Built target turtlesim__rosidl_typesupport_cpp
+[0.887s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.920s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.940s] [ 71%] Built target turtlesim
+[0.955s] [ 72%] Built target turtlesim__py
+[0.965s] [ 74%] Built target draw_square
+[0.965s] [ 76%] Built target turtle_teleop_key
+[0.967s] [ 78%] Built target mimic
+[0.972s] [ 84%] Built target turtlesim_node
+[0.976s] [ 93%] Built target turtlesim__python
+[0.996s] [ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.998s] [ 97%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.998s] [100%] Built target turtlesim__rosidl_typesupport_c__pyext

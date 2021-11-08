@@ -1,0 +1,27 @@
+[1.421s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher --editable --build-directory /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data --install-dir /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher
+[1.618s] running develop
+[1.781s] running egg_info
+[1.781s] creating examples_rclpy_minimal_publisher.egg-info
+[1.781s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[1.782s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[1.782s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[1.782s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[1.782s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[1.783s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.828s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.829s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.872s] running build_ext
+[1.873s] Creating /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/site.py
+[1.876s] Creating /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[1.877s] Installing publisher_local_function script to /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.877s] Installing publisher_member_function script to /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.877s] Installing publisher_old_school script to /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.878s] 
+[1.878s] Installed /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_publisher
+[1.878s] running install_data
+[1.878s] creating /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher/share/ament_index
+[1.878s] creating /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[1.878s] creating /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[1.878s] copying resource/examples_rclpy_minimal_publisher -> /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[1.878s] copying package.xml -> /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[1.925s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher --editable --build-directory /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data --install-dir /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_publisher

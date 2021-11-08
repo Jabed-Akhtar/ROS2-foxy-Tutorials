@@ -1,0 +1,27 @@
+[1.413s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber
+[1.621s] running develop
+[1.785s] running egg_info
+[1.785s] creating examples_rclpy_minimal_subscriber.egg-info
+[1.786s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[1.786s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[1.786s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[1.786s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[1.786s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[1.788s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.826s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.827s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.867s] running build_ext
+[1.868s] Creating /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/site.py
+[1.871s] Creating /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[1.872s] Installing subscriber_lambda script to /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.872s] Installing subscriber_member_function script to /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.872s] Installing subscriber_old_school script to /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.873s] 
+[1.873s] Installed /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_subscriber
+[1.873s] running install_data
+[1.873s] creating /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[1.873s] creating /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[1.873s] creating /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[1.873s] copying resource/examples_rclpy_minimal_subscriber -> /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[1.874s] copying package.xml -> /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[1.935s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_subscriber

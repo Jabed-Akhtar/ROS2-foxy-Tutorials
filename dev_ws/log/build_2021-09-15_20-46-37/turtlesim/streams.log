@@ -1,0 +1,20 @@
+[0.057s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) _=/usr/bin/env /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim -- -j24 -l24
+[0.952s] [ 10%] Built target turtlesim__rosidl_generator_c
+[0.953s] [ 11%] Built target turtlesim__cpp
+[0.953s] [ 22%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.953s] [ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.953s] [ 41%] Built target turtlesim__rosidl_typesupport_c
+[0.953s] [ 51%] Built target turtlesim__rosidl_typesupport_cpp
+[0.954s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.955s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.955s] [ 71%] Built target turtlesim
+[0.956s] [ 72%] Built target turtlesim__py
+[0.956s] [ 74%] Built target mimic
+[0.957s] [ 76%] Built target draw_square
+[0.958s] [ 78%] Built target turtle_teleop_key
+[0.958s] [ 84%] Built target turtlesim_node
+[0.958s] [ 93%] Built target turtlesim__python
+[0.958s] [ 95%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.958s] [ 97%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.958s] [100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.967s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) _=/usr/bin/env /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim -- -j24 -l24

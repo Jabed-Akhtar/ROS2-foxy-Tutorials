@@ -1,0 +1,922 @@
+[0.226s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.226s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2dd104ddf0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=24, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2dd104ddf0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2dd10543a0>)
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.232s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_parameters' with type 'ros.ament_cmake' and name 'cpp_parameters'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_cmake) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_cmake) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_cmake) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_cmake) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_cmake) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_cmake) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_cmake) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_cmake) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_cmake) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package_cmake' with type 'ros.ament_cmake' and name 'my_package_cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_python) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_python) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_python) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_python) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_python) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_python) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_python) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_python) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package_python) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package_python' with type 'ros.ament_python' and name 'my_package_python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ploygon_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ploygon_plugins) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ploygon_plugins) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ploygon_plugins) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ploygon_plugins) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ploygon_plugins) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ploygon_plugins) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ploygon_plugins) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ploygon_plugins) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ploygon_plugins' with type 'ros.ament_cmake' and name 'ploygon_plugins'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_base' with type 'ros.ament_cmake' and name 'polygon_base'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_parameters' with type 'ros.ament_python' and name 'python_parameters'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'more_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/more_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/more_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_package_cmake' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_package_cmake' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_package_cmake' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_package_cmake' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_package_cmake' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_package_cmake' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_package_cmake' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_package_cmake' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'my_package_cmake' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'my_package_cmake' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_cmake', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/my_package_cmake', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'my_package_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/my_package_python', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/polygon_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/polygon_base', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'python_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/python_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/python_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.288s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.289s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'ploygon_plugins' build argument 'cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'ploygon_plugins' build argument 'cmake_target' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'ploygon_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'ploygon_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'ploygon_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'ploygon_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'ploygon_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'ploygon_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.291s] Level 5:colcon.colcon_core.verb:set package 'ploygon_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.291s] DEBUG:colcon.colcon_core.verb:Building package 'ploygon_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/ploygon_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins', 'merge_install': False, 'path': '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/ploygon_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.291s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.293s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.293s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/polygon_base' with build type 'ament_cmake'
+[0.293s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/polygon_base'
+[0.297s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.297s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.297s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.299s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.301s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_parameters' with build type 'ament_cmake'
+[0.301s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_parameters'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.303s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.305s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[0.305s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_pubsub'
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.308s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_srvcli' with build type 'ament_cmake'
+[0.308s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/cpp_srvcli'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.310s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.312s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/more_interfaces' with build type 'ament_cmake'
+[0.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/more_interfaces'
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.315s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/my_package_cmake' with build type 'ament_cmake'
+[0.315s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/my_package_cmake'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.317s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.318s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/my_package_python' with build type 'ament_python'
+[0.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package_python', 'ament_prefix_path')
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/share/my_package_python/hook/ament_prefix_path.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/share/my_package_python/hook/ament_prefix_path.dsv'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/share/my_package_python/hook/ament_prefix_path.sh'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.324s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/py_pubsub' with build type 'ament_python'
+[0.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.328s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/py_srvcli' with build type 'ament_python'
+[0.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.332s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/python_parameters' with build type 'ament_python'
+[0.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'ament_prefix_path')
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/share/python_parameters/hook/ament_prefix_path.ps1'
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/share/python_parameters/hook/ament_prefix_path.dsv'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/share/python_parameters/hook/ament_prefix_path.sh'
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.335s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.336s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/ros_tutorials/turtlesim'
+[0.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.338s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.340s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.340s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/tutorial_interfaces'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.342s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/polygon_base -- -j24 -l24
+[0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters -- -j24 -l24
+[0.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_pubsub -- -j24 -l24
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli -- -j24 -l24
+[0.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/more_interfaces -- -j24 -l24
+[0.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_cmake': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_cmake -- -j24 -l24
+[0.520s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/my_package_python'
+[0.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.524s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.690s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/py_pubsub'
+[0.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.692s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.855s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/py_srvcli'
+[0.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.858s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.021s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/python_parameters'
+[1.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.025s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim -- -j24 -l24
+[1.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces -- -j24 -l24
+[1.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/polygon_base -- -j24 -l24
+[1.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters -- -j24 -l24
+[1.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_pubsub -- -j24 -l24
+[1.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli -- -j24 -l24
+[1.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/more_interfaces -- -j24 -l24
+[1.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_cmake' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_cmake -- -j24 -l24
+[1.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/my_package_python': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package_python build --build-base /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_python/build install --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python --record /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_python/install.log --single-version-externally-managed
+[1.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/py_pubsub': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/py_pubsub/build install --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub --record /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[1.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/py_srvcli': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/py_srvcli/build install --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli --record /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/py_srvcli/install.log --single-version-externally-managed
+[1.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/python_parameters': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/python_parameters/build install --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters --record /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/python_parameters/install.log --single-version-externally-managed
+[1.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/polygon_base
+[1.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_pubsub
+[1.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli
+[1.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[1.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_cmake': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_cmake
+[1.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/polygon_base
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base' for CMake module files
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base' for CMake config files
+[1.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/lib'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/bin'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/lib/python3.8/site-packages'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/package.ps1'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/package.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/package.sh'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/package.bash'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/package.zsh'
+[1.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/colcon-core/packages/polygon_base)
+[1.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters' for CMake module files
+[1.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_parameters
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters' for CMake config files
+[1.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/lib'
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/bin'
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/lib/python3.8/site-packages'
+[1.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[1.130s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[1.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/package.sh'
+[1.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/package.bash'
+[1.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[1.131s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[1.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/more_interfaces
+[1.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub' for CMake module files
+[1.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_pubsub
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub' for CMake config files
+[1.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/lib'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/bin'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/lib/python3.8/site-packages'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[1.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[1.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli' for CMake module files
+[1.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/cpp_srvcli
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli' for CMake config files
+[1.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/lib'
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/bin'
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/lib/python3.8/site-packages'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[1.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[1.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[1.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package_cmake)
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake' for CMake module files
+[1.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_cmake' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_cmake
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake' for CMake config files
+[1.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package_cmake', 'cmake_prefix_path')
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/hook/cmake_prefix_path.ps1'
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/hook/cmake_prefix_path.dsv'
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/hook/cmake_prefix_path.sh'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/lib'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/bin'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/lib/pkgconfig/my_package_cmake.pc'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/lib/python3.8/site-packages'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/package.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/package.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/package.sh'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/package.bash'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/package.zsh'
+[1.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/colcon-core/packages/my_package_cmake)
+[1.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base' for CMake module files
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base' for CMake config files
+[1.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/lib'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/bin'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/lib/python3.8/site-packages'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/package.ps1'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/package.dsv'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/package.sh'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/package.bash'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/polygon_base/package.zsh'
+[1.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base/share/colcon-core/packages/polygon_base)
+[1.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub' for CMake module files
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub' for CMake config files
+[1.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/lib'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/bin'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/lib/python3.8/site-packages'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[1.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[1.191s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/ploygon_plugins' with build type 'ament_cmake'
+[1.191s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/ploygon_plugins'
+[1.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.193s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.196s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters' for CMake module files
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters' for CMake config files
+[1.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/lib'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/bin'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/lib/python3.8/site-packages'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/package.sh'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/package.bash'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[1.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[1.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces' for CMake module files
+[1.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/more_interfaces
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces' for CMake config files
+[1.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/lib'
+[1.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'ld_library_path_lib')
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.dsv'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.sh'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/bin'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/lib/python3.8/site-packages'
+[1.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'pythonpath')
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/pythonpath.ps1'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/pythonpath.dsv'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/pythonpath.sh'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/package.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/package.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/package.sh'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/package.bash'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/package.zsh'
+[1.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[1.214s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli' for CMake module files
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli' for CMake config files
+[1.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/lib'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/bin'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/lib/python3.8/site-packages'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[1.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[1.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces -- -j24 -l24
+[1.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package_cmake)
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake' for CMake module files
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake' for CMake config files
+[1.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package_cmake', 'cmake_prefix_path')
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/hook/cmake_prefix_path.ps1'
+[1.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/hook/cmake_prefix_path.dsv'
+[1.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/hook/cmake_prefix_path.sh'
+[1.230s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/lib'
+[1.230s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/bin'
+[1.230s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/lib/pkgconfig/my_package_cmake.pc'
+[1.230s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/lib/python3.8/site-packages'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/package.ps1'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/package.dsv'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/package.sh'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/package.bash'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/my_package_cmake/package.zsh'
+[1.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_cmake/share/colcon-core/packages/my_package_cmake)
+[1.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/ploygon_plugins': AMENT_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base:/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/ploygon_plugins -- -j24 -l24
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim -- -j24 -l24
+[1.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces' for CMake module files
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces' for CMake config files
+[1.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/lib'
+[1.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'ld_library_path_lib')
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.ps1'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.dsv'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.sh'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/bin'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/lib/python3.8/site-packages'
+[1.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'pythonpath')
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/pythonpath.ps1'
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/pythonpath.dsv'
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/hook/pythonpath.sh'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/package.ps1'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/package.dsv'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/package.sh'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/package.bash'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/more_interfaces/package.zsh'
+[1.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[1.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces
+[1.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/ploygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base:/opt/ros/foxy /usr/bin/cmake --build /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/ploygon_plugins -- -j24 -l24
+[1.295s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python' for CMake module files
+[1.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/my_package_python' returned '0': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package_python build --build-base /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_python/build install --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python --record /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/my_package_python/install.log --single-version-externally-managed
+[1.296s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python' for CMake config files
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/lib'
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/bin'
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/lib/pkgconfig/my_package_python.pc'
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/lib/python3.8/site-packages'
+[1.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package_python', 'pythonpath')
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/share/my_package_python/hook/pythonpath.ps1'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/share/my_package_python/hook/pythonpath.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/share/my_package_python/hook/pythonpath.sh'
+[1.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package_python)
+[1.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/share/my_package_python/package.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/share/my_package_python/package.dsv'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/share/my_package_python/package.sh'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/share/my_package_python/package.bash'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/share/my_package_python/package.zsh'
+[1.301s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python/share/colcon-core/packages/my_package_python)
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli' for CMake module files
+[1.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/py_srvcli/build install --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli --record /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/py_srvcli/install.log --single-version-externally-managed
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli' for CMake config files
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/lib'
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/bin'
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[1.304s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/lib/python3.8/site-packages'
+[1.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[1.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[1.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/share/py_srvcli/package.ps1'
+[1.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/share/py_srvcli/package.dsv'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/share/py_srvcli/package.sh'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/share/py_srvcli/package.bash'
+[1.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/share/py_srvcli/package.zsh'
+[1.309s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub' for CMake module files
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub' for CMake config files
+[1.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/ploygon_plugins': AMENT_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base:/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/ploygon_plugins
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/lib'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/bin'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/lib/python3.8/site-packages'
+[1.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[1.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/py_pubsub/build install --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub --record /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[1.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[1.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[1.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters' for CMake module files
+[1.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/python_parameters' returned '0': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/python_parameters/build install --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters --record /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/python_parameters/install.log --single-version-externally-managed
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters' for CMake config files
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/lib'
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/bin'
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/lib/pkgconfig/python_parameters.pc'
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/lib/python3.8/site-packages'
+[1.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'pythonpath')
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/share/python_parameters/hook/pythonpath.ps1'
+[1.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/share/python_parameters/hook/pythonpath.dsv'
+[1.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/share/python_parameters/hook/pythonpath.sh'
+[1.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_parameters)
+[1.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/share/python_parameters/package.ps1'
+[1.332s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/share/python_parameters/package.dsv'
+[1.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/share/python_parameters/package.sh'
+[1.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/share/python_parameters/package.bash'
+[1.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/share/python_parameters/package.zsh'
+[1.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/python_parameters/share/colcon-core/packages/python_parameters)
+[1.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces' for CMake module files
+[1.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces' for CMake config files
+[1.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[1.339s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/lib'
+[1.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[1.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/bin'
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages'
+[1.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[1.346s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[1.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ploygon_plugins)
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins' for CMake module files
+[1.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/ploygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/polygon_base:/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/ploygon_plugins
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins' for CMake config files
+[1.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('ploygon_plugins', 'cmake_prefix_path')
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/hook/cmake_prefix_path.ps1'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/hook/cmake_prefix_path.dsv'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/hook/cmake_prefix_path.sh'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/lib'
+[1.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('ploygon_plugins', 'ld_library_path_lib')
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/hook/ld_library_path_lib.ps1'
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/hook/ld_library_path_lib.dsv'
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/hook/ld_library_path_lib.sh'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/bin'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/lib/pkgconfig/ploygon_plugins.pc'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/lib/python3.8/site-packages'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/package.ps1'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/package.dsv'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/package.sh'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/package.bash'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/package.zsh'
+[1.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/colcon-core/packages/ploygon_plugins)
+[1.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim
+[1.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ploygon_plugins)
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins' for CMake module files
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins' for CMake config files
+[1.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('ploygon_plugins', 'cmake_prefix_path')
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/hook/cmake_prefix_path.ps1'
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/hook/cmake_prefix_path.dsv'
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/hook/cmake_prefix_path.sh'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/lib'
+[1.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('ploygon_plugins', 'ld_library_path_lib')
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/hook/ld_library_path_lib.ps1'
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/hook/ld_library_path_lib.dsv'
+[1.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/hook/ld_library_path_lib.sh'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/bin'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/lib/pkgconfig/ploygon_plugins.pc'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/lib/python3.8/site-packages'
+[1.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/package.ps1'
+[1.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/package.dsv'
+[1.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/package.sh'
+[1.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/package.bash'
+[1.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/ploygon_plugins/package.zsh'
+[1.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/ploygon_plugins/share/colcon-core/packages/ploygon_plugins)
+[1.391s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces' for CMake module files
+[1.394s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces' for CMake config files
+[1.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[1.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[1.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[1.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/lib'
+[1.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[1.397s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/bin'
+[1.397s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[1.397s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages'
+[1.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[1.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[1.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[1.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[1.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[1.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[1.414s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim' for CMake module files
+[1.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim' for CMake config files
+[1.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[1.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/lib'
+[1.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[1.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[1.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[1.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/bin'
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/lib/python3.8/site-packages'
+[1.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[1.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[1.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[1.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[1.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/package.ps1'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/package.dsv'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/package.sh'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/package.bash'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/package.zsh'
+[1.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[1.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim' for CMake module files
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim' for CMake config files
+[1.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/lib'
+[1.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[1.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/bin'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/lib/python3.8/site-packages'
+[1.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[1.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/package.ps1'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/package.dsv'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/package.sh'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/package.bash'
+[1.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/turtlesim/package.zsh'
+[1.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[1.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.524s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.533s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.587s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.588s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/local_setup.ps1'
+[1.590s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/_local_setup_util_ps1.py'
+[1.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/setup.ps1'
+[1.594s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/local_setup.sh'
+[1.595s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/_local_setup_util_sh.py'
+[1.596s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/setup.sh'
+[1.597s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/local_setup.bash'
+[1.597s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/setup.bash'
+[1.598s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/local_setup.zsh'
+[1.599s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/setup.zsh'

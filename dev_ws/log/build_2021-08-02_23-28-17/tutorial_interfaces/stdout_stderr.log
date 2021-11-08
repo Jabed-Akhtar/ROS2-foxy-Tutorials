@@ -1,0 +1,21 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+CMake Error at CMakeLists.txt:23 (find_package):
+  By not providing "Findrosidl_default_genarators.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "rosidl_default_genarators", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "rosidl_default_genarators" with any of the following names:
+
+    rosidl_default_genaratorsConfig.cmake
+    rosidl_default_genarators-config.cmake
+
+  Add the installation prefix of "rosidl_default_genarators" to
+  CMAKE_PREFIX_PATH or set "rosidl_default_genarators_DIR" to a directory
+  containing one of the above files.  If "rosidl_default_genarators" provides
+  a separate development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".

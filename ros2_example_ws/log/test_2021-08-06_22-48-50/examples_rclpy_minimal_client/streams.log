@@ -1,0 +1,64 @@
+[0.722s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclpy/services/minimal_client': AMENT_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_client:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_client/.pytest_cache PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_client:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.105s] [1m============================= test session starts ==============================[0m
+[1.105s] platform linux -- Python 3.8.10, pytest-6.2.4, py-1.10.0, pluggy-0.13.0
+[1.105s] cachedir: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_client/.pytest_cache
+[1.105s] rootdir: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclpy, configfile: pytest.ini
+[1.105s] plugins: ament-pep257-0.9.6, launch-testing-0.10.5, launch-testing-ros-0.11.2, ament-lint-0.9.6, ament-copyright-0.9.6, ament-xmllint-0.9.6, ament-flake8-0.9.6, repeat-0.9.1, rerunfailures-10.1, mock-1.10.4, colcon-core-0.6.1, cov-2.8.1
+[1.147s] [1mcollecting ... [0m[1m
+[1.147s] collected 3 items                                                              [0m
+[1.148s] 
+[1.166s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[1.293s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[1.312s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[1.312s] 
+[1.312s] =================================== FAILURES ===================================
+[1.312s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[1.312s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1.354s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1.354s] [1m[31mE   AssertionError: Found 4 code style errors / warnings:[0m
+[1.354s] [1m[31mE     ./examples_rclpy_minimal_client/client_async.py:39:1: B902 blind except Exception: statement[0m
+[1.354s] [1m[31mE     ./examples_rclpy_minimal_client/client.py:36:1: B902 blind except Exception: statement[0m
+[1.354s] [1m[31mE     ./examples_rclpy_minimal_client/client_async_callback.py:42:1: B902 blind except Exception: statement[0m
+[1.354s] [1m[31mE     ./examples_rclpy_minimal_client/client_async_member_function.py:47:1: B902 blind except Exception: statement[0m
+[1.355s] [1m[31mE   assert 1 == 0[0m
+[1.355s] ----------------------------- Captured stdout call -----------------------------
+[1.355s] 
+[1.355s] ./examples_rclpy_minimal_client/client_async.py:39:1: B902 blind except Exception: statement
+[1.355s]             except Exception as e:
+[1.355s] ^
+[1.355s] 
+[1.355s] ./examples_rclpy_minimal_client/client.py:36:1: B902 blind except Exception: statement
+[1.355s]     except Exception as e:
+[1.356s] ^
+[1.356s] 
+[1.356s] ./examples_rclpy_minimal_client/client_async_callback.py:42:1: B902 blind except Exception: statement
+[1.356s]             except Exception as e:
+[1.356s] ^
+[1.356s] 
+[1.356s] ./examples_rclpy_minimal_client/client_async_member_function.py:47:1: B902 blind except Exception: statement
+[1.356s]             except Exception as e:
+[1.356s] ^
+[1.357s] 
+[1.357s] 4     B902 blind except Exception: statement
+[1.357s] 
+[1.357s] 9 files checked
+[1.357s] 4 errors
+[1.357s] 
+[1.357s] 'B'-type errors: 4
+[1.357s] 
+[1.357s] Checked files:
+[1.358s] 
+[1.358s] * ./setup.py
+[1.358s] * ./test/test_flake8.py
+[1.358s] * ./test/test_pep257.py
+[1.358s] * ./test/test_copyright.py
+[1.358s] * ./examples_rclpy_minimal_client/client_async.py
+[1.358s] * ./examples_rclpy_minimal_client/client.py
+[1.358s] * ./examples_rclpy_minimal_client/__init__.py
+[1.358s] * ./examples_rclpy_minimal_client/client_async_callback.py
+[1.359s] * ./examples_rclpy_minimal_client/client_async_member_function.py
+[1.359s] - generated xml file: /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_client/pytest.xml -
+[1.359s] =========================== short test summary info ============================
+[1.359s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 4 code style ...
+[1.359s] [31m========================= [31m[1m1 failed[0m, [32m2 passed[0m[31m in 0.26s[0m[31m ==========================[0m
+[1.428s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/src/examples/rclpy/services/minimal_client' returned '1': AMENT_PREFIX_PATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_client:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_client/.pytest_cache PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/build/examples_rclpy_minimal_client:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/ros2_example_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

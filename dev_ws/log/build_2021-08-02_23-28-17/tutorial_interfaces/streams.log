@@ -1,0 +1,23 @@
+[0.010s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces
+[0.021s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.184s] CMake Error at CMakeLists.txt:23 (find_package):
+[0.184s]   By not providing "Findrosidl_default_genarators.cmake" in CMAKE_MODULE_PATH
+[0.184s]   this project has asked CMake to find a package configuration file provided
+[0.184s]   by "rosidl_default_genarators", but CMake did not find one.
+[0.184s] 
+[0.184s]   Could not find a package configuration file provided by
+[0.185s]   "rosidl_default_genarators" with any of the following names:
+[0.185s] 
+[0.185s]     rosidl_default_genaratorsConfig.cmake
+[0.185s]     rosidl_default_genarators-config.cmake
+[0.185s] 
+[0.185s]   Add the installation prefix of "rosidl_default_genarators" to
+[0.186s]   CMAKE_PREFIX_PATH or set "rosidl_default_genarators_DIR" to a directory
+[0.186s]   containing one of the above files.  If "rosidl_default_genarators" provides
+[0.186s]   a separate development package or SDK, be sure it has been installed.
+[0.187s] 
+[0.188s] 
+[0.188s] -- Configuring incomplete, errors occurred!
+[0.188s] See also "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.188s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_srvcli:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/py_pubsub:/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/tutorial_interfaces

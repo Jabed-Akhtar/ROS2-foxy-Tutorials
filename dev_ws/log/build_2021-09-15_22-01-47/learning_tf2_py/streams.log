@@ -1,0 +1,20 @@
+[0.953s] Invoking command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/learning_tf2_py': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/learning_tf2_py/build install --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/learning_tf2_py --record /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/learning_tf2_py/install.log --single-version-externally-managed
+[1.121s] running egg_info
+[1.122s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[1.122s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[1.122s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[1.122s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[1.122s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[1.155s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[1.155s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[1.156s] running build
+[1.156s] running build_py
+[1.156s] running install
+[1.156s] running install_lib
+[1.157s] running install_data
+[1.158s] running install_egg_info
+[1.159s] removing '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info' (and everything under it)
+[1.159s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info
+[1.159s] running install_scripts
+[1.171s] writing list of installed files to '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/learning_tf2_py/install.log'
+[1.195s] Invoked command in '/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/src/learning_tf2_py' returned '0': PYTHONPATH=/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/learning_tf2_py/build install --prefix /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/install/learning_tf2_py --record /home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/learning_tf2_py/install.log --single-version-externally-managed
