@@ -1,3 +1,5 @@
 **/.vscode
 **/bag_files/
 **/__pycache__
+**/build
+**/log
