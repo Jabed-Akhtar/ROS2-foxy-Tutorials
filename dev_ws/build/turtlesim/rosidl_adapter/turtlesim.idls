@@ -1,8 +1,0 @@
-/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
-/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
-/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
-/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
-/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
-/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
-/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
-/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

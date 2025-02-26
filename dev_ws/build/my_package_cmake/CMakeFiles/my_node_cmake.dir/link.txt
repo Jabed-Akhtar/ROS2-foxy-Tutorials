@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/my_node_cmake.dir/src/my_node_cmake.cpp.o  -o my_node_cmake 
