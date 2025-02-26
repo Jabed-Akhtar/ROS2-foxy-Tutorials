@@ -1,4 +1,0 @@
--- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
--- Using PYTHON_EXECUTABLE: /home/samir/anaconda3/envs/ros2/bin/python3
--- Configuring incomplete, errors occurred!
-See also "/home/samir/Samir/Projects_Others/ros2_ws/ros2_foxy_tutorial_ws/dev_ws/build/geometry_tutorials/CMakeFiles/CMakeOutput.log".
